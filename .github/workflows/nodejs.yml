@@ -25,7 +25,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    - run: npm install minimist
+    - run: npm audit fix
     - run: npm audit
       env:
         CI: true
