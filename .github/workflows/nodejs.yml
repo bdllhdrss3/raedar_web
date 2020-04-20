@@ -27,8 +27,7 @@ jobs:
     - run: npm test
       env:
         CI: true
- 
- build:
+  build:
 
     runs-on: ubuntu-latest
 
